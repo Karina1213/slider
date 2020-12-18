@@ -10,7 +10,6 @@ interface IState {
 interface IProps {
     children: (number | string | any) []
 }
-// the type any was used because no solution was found for JSXElement in this.props.children.map
 
 export class Slider extends React.Component <IProps, IState> {
 
